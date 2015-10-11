@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+</head>
+<body>
+
+  <div class="container">
+    <nav class="navbar">
+      <div class="navbar-header">
+        <span class="navbar-brand">WeatherApp <span><img src='cloudPic.png'></img></span></span>
+      </div>
+      <form class="navbar-form navbar-right" id='formSend' action='#' >
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search" id='searchInput'>
+        </div>
+        <button type="button" class="btn btn-default" id='search'>Submit</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="container main">
+    <div class="row cityTitlePanel">
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4 todayBox" data-id=0>
+      </div>
+      <div class="col-sm-8 theWeekBox">
+        <div class="row">
+          <div class="col-sm-4 inner" data-id=1 >
+
+          </div>
+          <div class="col-sm-4 inner" data-id=2>
+
+          </div>
+          <div class="col-sm-4 inner" data-id=3>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

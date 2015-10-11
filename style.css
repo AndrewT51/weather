@@ -1,0 +1,65 @@
+body {
+background-image: url('http://i363.photobucket.com/albums/oo73/bear75948/Landscapes/webtreats-seamless-cloud-4.jpg');
+
+}
+@media screen and (min-width: 768px) {
+  .inner {
+    padding-bottom: 1000px;
+  margin-bottom: -1000px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .inner {
+    border-bottom: black solid 1px;
+    border-left: 0;
+  }
+  .todayBox {
+    border-bottom: black solid 1px;
+  }
+}
+.theWeekBox {
+  background-color: #DEF0FC;
+  overflow: hidden;
+}
+.main{
+  background-color: #DCFDEE;
+  border: black solid 1px;
+}
+.todayBox {
+  background-color: #DCFDEE;
+}
+.inner {
+  border-left: black solid 1px;
+}
+.heading {
+  text-align: center;
+}
+#city {
+  text-align: center;
+}
+.cityTitlePanel {
+  font-family: roboto;
+  background-color: #E1E1FD;
+  margin-top: 0;
+  border-bottom: black 1px solid;
+}
+.navbar{
+  background-color: transparent;
+
+}
+.navbar button{
+  margin-right: 50px;
+}
+.todayBox img, .theWeekBox img {
+  display: block;
+  margin: 10px auto;
+  width: 70px;
+}
+#notFound {
+  padding: 10px;
+  text-align: center;
+
+}
+h3, h4 {
+  text-align: center;
+}
